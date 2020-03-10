@@ -52,17 +52,17 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>exec-maven-plugin</artifactId>
-                <version>1.6.0</version>
-                <configuration>
-                    <mainClass>Drivers</mainClass>
-<!--                    <arguments>-->
-<!--                        <argument>argument1</argument>-->
-<!--                    </arguments>-->
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.codehaus.mojo</groupId>-->
+<!--                <artifactId>exec-maven-plugin</artifactId>-->
+<!--                <version>1.6.0</version>-->
+<!--                <configuration>-->
+<!--                    <mainClass>Drivers</mainClass>-->
+<!--&lt;!&ndash;                    <arguments>&ndash;&gt;-->
+<!--&lt;!&ndash;                        <argument>argument1</argument>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </arguments>&ndash;&gt;-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
