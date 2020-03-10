@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Automation-Scripts.iml" filepath="$PROJECT_DIR$/.idea/Automation-Scripts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DriverDemo/DriverDemo.iml" filepath="$PROJECT_DIR$/DriverDemo/DriverDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestADemo/RestADemo.iml" filepath="$PROJECT_DIR$/RestADemo/RestADemo.iml" />
     </modules>
   </component>
 </project>
