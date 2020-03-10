@@ -26,10 +26,10 @@ public class Basic {
         String responseBody = response.getBody().asString();
 // System.out.println("Response Body is =>  " + responseBody);
 
-
-        Response response1 = httpRequest.queryParam("empId", "16374")
-                .queryParam("fromDate", "2020-02-01")
-                .queryParam("toDate", "2020-02-19").request(Method.GET);
+        RequestSpecification httpRequest1 = RestAssured.given();
+        Response response1 = httpRequest1.queryParam("empId", "16606")
+                .queryParam("fromDate", "2020-02-10")
+                .queryParam("toDate", "2020-03-10").request(Method.GET);
         String resp = response1.getBody().asString();
         System.out.println(response1.getBody().asString());
 

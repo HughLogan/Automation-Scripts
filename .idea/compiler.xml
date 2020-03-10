@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Automation-Scripts" />
         <module name="RestADemo" />
         <module name="DriverDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Automation-Scripts" target="1.5" />
       <module name="DriverDemo" target="1.5" />
       <module name="RestADemo" target="1.5" />
     </bytecodeTargetLevel>
