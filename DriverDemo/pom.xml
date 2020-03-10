@@ -7,6 +7,14 @@
     <groupId>org.example</groupId>
     <artifactId>DriverDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>Automation-Scripts</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
