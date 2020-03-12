@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8adb1edf-6d48-4756-b646-08af51787fac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yy8wwsTrVui9EKwuC5Pgnc1uO5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41494253" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/com.qa.rest.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Test1_Get.CheckRespBody">
+    <configuration name="Test1_Basic.creData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="datadriven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="datadriven" />
+      <option name="MAIN_CLASS_NAME" value="datadriven.Test1_Basic" />
+      <option name="METHOD_NAME" value="creData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1_Get" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.rest.test.Test1_Get" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1_Get.CheckRespBody" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.rest.test.Test1_Get" />
+      <option name="METHOD_NAME" value="CheckRespBody" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5_Auth.GetWeaDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.rest.test.Test5_Auth" />
+      <option name="METHOD_NAME" value="GetWeaDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test6_Basic.GetWeaDetails" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qa.rest.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.qa.rest.test" />
+      <option name="MAIN_CLASS_NAME" value="com.qa.rest.test.Test6_Basic" />
+      <option name="METHOD_NAME" value="GetWeaDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Test1_Get.CheckRespBody" />
+        <item itemvalue="TestNG.Test1_Get" />
+        <item itemvalue="TestNG.Test1_Basic.creData" />
+        <item itemvalue="TestNG.Test6_Basic.GetWeaDetails" />
+        <item itemvalue="TestNG.Test5_Auth.GetWeaDetails" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8adb1edf-6d48-4756-b646-08af51787fac" name="Default Changelist" comment="" />
+      <created>1583903715903</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583903715903</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="117" key="#Project_Structure" timestamp="1583904384723">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="117" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1583904384723" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1584011063899">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584011063899" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1584011063898">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584011063898" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1584011063897">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584011063897" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1584011063898">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584011063898" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1584011024138">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584011024138" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1584011024137">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1584011024137" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1584011024137">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1584011024137" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1584011024138">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1584011024138" />
+    <state x="258" y="113" key="Maven.ArtifactSearchDialog" timestamp="1583999017768">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="113" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1583999017768" />
+    <state x="208" y="33" key="SettingsEditor" timestamp="1583904181447">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="33" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583904181447" />
+    <state x="432" y="353" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583904342118">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="432" y="353" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1583904342118" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1584005777027">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584005777027" />
+  </component>
+</project>

@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="RestA" />
+        <module name="RestAssuredBDDFramework" />
         <module name="RestADemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Automation-Scripts" target="1.5" />
       <module name="DriverDemo" target="1.5" />
+      <module name="RestA" target="1.5" />
       <module name="RestADemo" target="1.5" />
+      <module name="RestAssuredBDDFramework" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

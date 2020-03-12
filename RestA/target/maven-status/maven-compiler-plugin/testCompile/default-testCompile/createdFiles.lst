@@ -1,0 +1,9 @@
+com/qa/rest/test/Test2_Post.class
+com/qa/rest/datadriven/Test1_Basic.class
+com/qa/rest/test/Test1_Get.class
+com/qa/rest/test/Test4_ValResp.class
+com/qa/rest/test/Test5_Auth.class
+com/qa/rest/test/Test3_ValHeader.class
+com/qa/rest/test/Test6_Basic.class
+com/qa/rest/base/TestBase.class
+com/qa/rest/test/GetCallBDD.class

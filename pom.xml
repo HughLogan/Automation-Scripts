@@ -13,6 +13,7 @@
     <modules>
         <module>DriverDemo</module>
         <module>RestADemo</module>
+        <module>RestA</module>
     </modules>
 
 <!--    <build>-->

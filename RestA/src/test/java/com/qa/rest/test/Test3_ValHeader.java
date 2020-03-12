@@ -32,8 +32,7 @@ public class Test3_ValHeader {
         Assert.assertEquals(statusline, "HTTP/1.1 200 OK");
 
         Headers allheaders = r.headers();
-        for (Header header:allheaders)
-        {
+        for (Header header : allheaders) {
             System.out.println(header.getName() + ":" + header.getValue());
         }
     }
