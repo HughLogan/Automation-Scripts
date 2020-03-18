@@ -4,6 +4,7 @@ import com.qa.rest.base.TestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.Method;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -35,5 +36,9 @@ public class Test1_Get extends TestBase {
         int status = resp.getStatusCode();
         log.info("Status Code: " + status);
         Assert.assertEquals(status, 200);
+    }
+    @AfterClass
+    void teardown(){
+        log.info("************* All Tests are executed **************");
     }
 }

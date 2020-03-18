@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="restapisuite">
+    <listeners>
+        <listener class-name="com.qa.rest.utils.Listner"/>
+    </listeners>
+    <test thread-count="4" name="restapitest">
+        <classes>
+            <class name="com.qa.rest.test.Test1_Get"/>
+            <class name="com.qa.rest.test.Test2_Post"/>
+            <class name="com.qa.rest.test.Test3_ValHeader"/>
+            <class name="com.qa.rest.test.Test5_Auth"/>
+        </classes>
+    </test>
+</suite>

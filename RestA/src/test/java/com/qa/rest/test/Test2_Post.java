@@ -7,6 +7,7 @@ import io.restassured.specification.RequestSpecification;
 import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import com.qa.rest.utils.*;
 
 public class Test2_Post {
 
@@ -16,11 +17,11 @@ public class Test2_Post {
         RestAssured.baseURI = "http://restapi.demoqa.com/customer";
         RequestSpecification req = RestAssured.given();
         JSONObject reqPar = new JSONObject();
-        reqPar.put("FirstName", "Oliver1");
-        reqPar.put("LastName", "Queen1");
-        reqPar.put("UserName", "OliverQ1");
-        reqPar.put("Password", "test1234");
-        reqPar.put("Email", "oliver1234@arrow.com");
+        reqPar.put("FirstName", userdata.fname());
+        reqPar.put("LastName", userdata.lname());
+        reqPar.put("UserName", userdata.uname());
+        reqPar.put("Password", userdata.pass());
+        reqPar.put("Email", userdata.email());
         System.out.println(reqPar.toJSONString());
 
         req.header("Content-Type", "application/json");
@@ -34,11 +35,11 @@ public class Test2_Post {
 
         int status = resp.getStatusCode();
         System.out.println("Status Code :" + status);
-       // Assert.assertEquals(status, 200);
+        Assert.assertEquals(status, 201);
 
         String sc = resp.jsonPath().get("SuccessCode");
         System.out.println(sc);
-       // Assert.assertEquals(sc, "OPERATION_SUCCESS");
+        Assert.assertEquals(sc, "OPERATION_SUCCESS");
 
 
     }
